@@ -8,3 +8,5 @@
 
 # Start
 npm start
+
+# npm i styled-components
