@@ -12,3 +12,6 @@ npm start
 # npm i styled-components
 
 # npm i react-icons
+
+# roteamento
+npm i react-router-dom@5.2.0
