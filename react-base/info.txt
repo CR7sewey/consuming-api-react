@@ -1,0 +1,6 @@
+# CONSUMING API
+
+# Creating react-base
+1- npx create-react-app .
+2- npm i eslint babel-eslint prettier eslint-config-prettier eslint-plugin-prettier -D 
+3- npx eslint --init
