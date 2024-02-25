@@ -1,8 +1,9 @@
 import React from "react";
-import { Switch, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 // Switch para so uma rota ser chamada por vez
 import Page404 from '../pages/Page404';
 import Login from '../pages/Login';
+import MyRoute from "./MyRoute";
 
 
 export default function Routes() {
@@ -10,8 +11,8 @@ export default function Routes() {
 
 
     <Switch>
-      <Route exact path="/" component={Login} />
-      <Route path="*" component={Page404} />
+      <MyRoute exact path="/" component={Login} isClosed />
+      <MyRoute path="*" component={Page404} />
     </Switch>
 
   );
