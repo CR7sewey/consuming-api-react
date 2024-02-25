@@ -2,5 +2,9 @@
 
 # Creating react-base
 1- npx create-react-app .
-2- npm i eslint babel-eslint prettier eslint-config-prettier eslint-plugin-prettier -D 
+2- npm i eslint babel-eslint prettier eslint-config-prettier eslint-plugin-prettier -D
 3- npx eslint --init
+4- add .editorconfig, change eslint, prettier
+
+# Start
+npm start
