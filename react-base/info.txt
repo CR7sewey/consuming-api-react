@@ -15,3 +15,6 @@ npm start
 
 # roteamento
 npm i react-router-dom@5.2.0
+
+# hisotry
+npm i history@4.10.1
