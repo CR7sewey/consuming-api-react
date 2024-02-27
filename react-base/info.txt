@@ -21,3 +21,6 @@ npm i history@4.10.1
 
 # toastify - comunicar com user, ex: email invalido e nos dixemos que o email é invalido
 mpn i react-toastify
+
+# axios para fazer requesicoes
+npm i axios
