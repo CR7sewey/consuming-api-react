@@ -24,3 +24,13 @@ mpn i react-toastify
 
 # axios para fazer requesicoes
 npm i axios
+
+# Redux - necessario de quando temos um estado global ( para evitar mandar de um componente para o outro etc)
+npm i redux react-redux
+Sistema de login com Redux - pasta store
+--> estado inical: {
+  usuario_logado: false
+}
+--> acao ouvida por um reducer -> newState = state --> newState
+useDispatch - disparar acoes
+reducer - ouve

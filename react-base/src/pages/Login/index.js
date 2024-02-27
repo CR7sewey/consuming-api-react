@@ -1,13 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import {Title, Paragrafo} from './styled';
 import { Container } from '../../styles/GlobalStyles';
 import { toast } from 'react-toastify';
-import axios from '../../services/axios';
+//import axios from '../../services/axios';
 
 
 export default function Login() {
   // posso fazer requisicoes aqui!!
-  React.useEffect(() => {
+ /* React.useEffect(() => {
     async function getData() {
       try {
       const response = await axios.get('/alunos');
@@ -19,7 +20,7 @@ export default function Login() {
     }
     getData();
   },
-  []); // semelhante ComponentDidMount
+  []); // semelhante ComponentDidMount*/
 
   toast.success('SUcesso', {
     toastId: 'successId',
@@ -27,6 +28,15 @@ export default function Login() {
   toast.error('Insucesso',{
     toastId: 'unsuccessId',
   });
+
+  const dispatch = useDispatch();
+
+  function handleClick(e) {
+    e.preventDefault();
+    dispatch({
+      type: 'BOTAO_CLICADO',
+    }); // dispara um acao
+  }
 
 
   return (
@@ -37,7 +47,7 @@ export default function Login() {
     </Title>
     <Paragrafo>Lorem5</Paragrafo>
     <a href=''>OIOOIOIIOIOOIOIO</a>
-    <button>OI</button>
+    <button type='button' onClick={handleClick}>OI</button>
     </Container>
 
 
