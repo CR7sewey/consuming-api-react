@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import {Title, Paragrafo} from './styled';
 import { Container } from '../../styles/GlobalStyles';
 import { toast } from 'react-toastify';
+import * as exampleActions from '../../store/modules/example/action';
 //import axios from '../../services/axios';
 
 
@@ -33,9 +34,7 @@ export default function Login() {
 
   function handleClick(e) {
     e.preventDefault();
-    dispatch({
-      type: 'BOTAO_CLICADO',
-    }); // dispara um acao
+    dispatch(exampleActions.clicaBotao()); // dispara um acao
   }
 
 
