@@ -34,7 +34,7 @@ export default function Login() {
 
   function handleClick(e) {
     e.preventDefault();
-    dispatch(exampleActions.clicaBotao()); // dispara um acao
+    dispatch(exampleActions.clicaBotaoRequest()); // dispara um acao
   }
 
 

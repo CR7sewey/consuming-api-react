@@ -34,3 +34,7 @@ Sistema de login com Redux - pasta store
 --> acao ouvida por um reducer -> newState = state --> newState
 useDispatch - disparar acoes
 reducer - ouve
+
+# redux async
+acao (request) -> saga -> reducer -> success/fail
+npm i redux-saga
