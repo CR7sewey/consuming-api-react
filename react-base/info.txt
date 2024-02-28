@@ -38,3 +38,7 @@ reducer - ouve
 # redux async
 acao (request) -> saga -> reducer -> success/fail
 npm i redux-saga
+
+# redux persiste - persistencia de dados
+npm i redux-persist
+podemos salvar aqui o token por exemplo par amanter user logad

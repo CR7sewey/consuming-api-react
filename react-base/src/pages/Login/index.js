@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import {Title, Paragrafo} from './styled';
 import { Container } from '../../styles/GlobalStyles';
-import { toast } from 'react-toastify';
+//import { toast } from 'react-toastify';
 import * as exampleActions from '../../store/modules/example/action';
 //import axios from '../../services/axios';
 
@@ -23,12 +23,12 @@ export default function Login() {
   },
   []); // semelhante ComponentDidMount*/
 
-  toast.success('SUcesso', {
+  /*toast.success('SUcesso', {
     toastId: 'successId',
   });
   toast.error('Insucesso',{
     toastId: 'unsuccessId',
-  });
+  });*/
 
   const dispatch = useDispatch();
 
@@ -41,7 +41,7 @@ export default function Login() {
   return (
     <React.Fragment>
     <Container>
-    <Title isRed={false}>Login
+    <Title>Login
       <small>OIIII</small>
     </Title>
     <Paragrafo>Lorem5</Paragrafo>
