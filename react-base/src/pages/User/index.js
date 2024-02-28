@@ -3,8 +3,8 @@ import { Container } from '../../styles/GlobalStyles';
 //import { toast } from 'react-toastify';
 //import axios from '../../services/axios';
 
-
-export default function Login() {
+// registo
+export default function User() {
   // posso fazer requisicoes aqui!!
  /* React.useEffect(() => {
     async function getData() {
@@ -31,7 +31,7 @@ export default function Login() {
   return (
     <React.Fragment>
     <Container>
-      <h1>LOGIN</h1>
+      <h1>User</h1>
     </Container>
     </React.Fragment>
 

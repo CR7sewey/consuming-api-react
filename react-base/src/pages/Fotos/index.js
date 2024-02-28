@@ -4,7 +4,7 @@ import { Container } from '../../styles/GlobalStyles';
 //import axios from '../../services/axios';
 
 
-export default function Login() {
+export default function Fotos() {
   // posso fazer requisicoes aqui!!
  /* React.useEffect(() => {
     async function getData() {
