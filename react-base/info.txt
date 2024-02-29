@@ -42,3 +42,6 @@ npm i redux-saga
 # redux persiste - persistencia de dados
 npm i redux-persist
 podemos salvar aqui o token por exemplo par amanter user logad
+
+
+# npm i validator (para validar email)
